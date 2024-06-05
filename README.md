@@ -1,4 +1,4 @@
-# WordPress Delete Old Revisions Script
+# WordPress Delete Old Revisions Script Till a Specific Date
 
 This repository contains a script to delete old revisions in WordPress up to a specific date using the Code Snippets plugin.
 
