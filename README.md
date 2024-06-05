@@ -1,4 +1,4 @@
-# WordPress Delete Old Revisions Script Till a Specific Date
+# WordPress Delete Old Revisions by Date Script
 
 This repository contains a script to delete old revisions in WordPress up to a specific date using the Code Snippets plugin.
 
@@ -18,7 +18,7 @@ This repository contains a script to delete old revisions in WordPress up to a s
        global $wpdb;
 
        // Set your desired date here
-       $date = 'YYYY-MM-DD';
+       $date = 'YYYY-MM-DD'; * All the revisions to this specific date will be deleted, and the revisions after this date will be kept. 
 
        $delete_revisions = $wpdb->query(
            $wpdb->prepare(
